@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: human-resources-fxfx
     spec:
       containers:
-      - image: quay.io/stonesoupuicluster/uidev-user-workload:p0QHj-human-resources-fxfx
+      - image: quay.io/stonesoupuicluster/uidev-user-workload@sha256:286cc05885ce883adbeb9717915e91e4c571316f5693761e42db93dd51ef9178
         name: my-java-springboot
         ports:
         - containerPort: 8081
